@@ -1,0 +1,109 @@
+.calcBody{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    min-height: 300px;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btnContainer{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 15px;
+
+}
+#btn{
+    margin:2px;
+    border-radius:50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+
+
+
+#clear{
+    border-radius: 50%;
+    margin: 2px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+
+}
+
+.display{
+    padding: 10px 20px;
+    border: 2px #ccc solid;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(240, 227, 227);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+
+}
+
+#delbtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(223, 159, 40);
+}
+#funcbtn{
+    background-color: rgb(223, 159, 40);
+    margin:2px;
+    border-radius:50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.currentNumber{
+    text-align: right;
+}
+
+.previousNumber{
+    text-align: end;
+}
+
+.header{
+    color: rgb(56, 54, 54);
+    text-decoration: underline;
+}
+
+#btn:hover{
+    background-color: rgb(236, 221, 221);
+}
+#funcbtn:hover{
+    background-color: orangered;
+}
+
+#delbtn:hover{
+    background-color: red;
+}
+
+#delbtn:active{
+    background-color: chartreuse;
+}
+#btn:active{
+    background-color: cadetblue;
+}
+
+#funcbtn:active{
+    background-color: tomato;
+}
